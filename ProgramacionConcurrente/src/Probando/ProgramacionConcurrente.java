@@ -25,4 +25,10 @@ public class ProgramacionConcurrente {
           return true;  
     }
     
+    public static boolean EstanConectados(){
+        boolean conectados;
+        conectados=false;
+        return conectados;
+    }
+    
 }
