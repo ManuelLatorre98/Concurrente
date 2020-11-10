@@ -28,6 +28,15 @@ public class TestSaludo {
             for (int i = 0; i < 6; i++) {
                 elPersonal[i].start();
             }
+            
+            /*//SOLUCION 1
+            for (int i = 0; i < 6; i++) {
+                elPersonal[i].join();
+            }
+             System.out.println("LISTO, ahora que todos han saludado - a trabajar");
+             */
+            
+            //Solucion 2
             hola.esperarMain(elPersonal.length-1);
             System.out.println("LISTO, ahora que todos han saludado - a trabajar");
         } catch (InterruptedException ex) {
